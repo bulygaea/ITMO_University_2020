@@ -15,7 +15,7 @@ def processing(x):
 
         # Записываем в файл новую строку, содержащую значение угла поворота в градусах (max=360) и время в секундах,
         # разделитель между столбцами - табуляция
-        data.write(str(abs(motorA.position)%360) + '\t' + str(time.time() - timeStart) + '\n')
+        data.write(str(motorA.position) + '\t' + str(time.time() - timeStart) + '\n')
 
     # Завершаем вращение и закрываем файл
     motorA.run_direct(duty_cycle_sp=0)
