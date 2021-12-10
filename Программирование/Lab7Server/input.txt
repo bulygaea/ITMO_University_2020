@@ -1,0 +1,15 @@
+show
+info
+add
+name1
+50
+42
+90
+4
+15
+yes
+designer
+
+2021
+4
+show

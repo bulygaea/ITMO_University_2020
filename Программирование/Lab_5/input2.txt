@@ -1,0 +1,2 @@
+help
+execute_script C:\Users\Екатерина\Documents\GitHub\ITMO_University_2020\Программирование\Lab_6\input2.txt
